@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guji Inn</title>
+    <link rel="stylesheet" href="bar.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Guji Corner Inn</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="accomodations.html">Accomodations</a></li>
+                <li><a href="bar.html">Bar Selection</a></li>
+            </ul>
+        </nav>
+        <div class="head">
+        <button >Reserve now</button>
+        </div>
+    </header>
+    <section class="hero-section">
+        <div class="overlay">
+            <h1>Welcome to Guji Corner Inn</h1>
+            <p>Discover our cozy bar area, where you can unwind with a selection of local and international beverages. Enjoy the warm ambiance and authentic Kenyan hospitality.</p>
+            <div class="button-container">
+                <button class="explore-btn"><a href="#drinks"> Explore Drinks</a> </button>
+                <button class="visit-btn"><a href="index.html" target="_blank">Visit Us</a> </button>
+            </div>
+        </div>
+    </section>
+    <section class="drink-offerings">
+        <div class="title-section">
+            <h2>Explore Our Refreshing Drink Offerings</h2>
+        </div>
+        <div class="content-section">
+            <p class="description">
+                At Guji Corner Inn, we offer a delightful selection of beverages to complement your meal. From traditional Kenyan drinks to international favorites, our bar is stocked to satisfy every palate.
+            </p>
+            <div class="drink-options">
+                <div class="drink-option">
+                    <h3>Local Favorites</h3>
+                    <p>Savor the taste of Kenya with our selection of traditional beverages, crafted to perfection.</p>
+                </div>
+                <div class="drink-option">
+                    <h3>International Delights</h3>
+                    <p>Enjoy a variety of international drinks, carefully selected to enhance your dining experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="drinks" id="drinks">
+        <div >
+            <div class="item">
+              1
+              <img src="images/drink1.jpeg" alt="drink1">
+            </div>
+            <div class="item">
+              2
+              <img src="images/drink2.jpeg" alt="drink2">
+            </div>
+            <div class="item">
+              3
+              <img src="images/drink3.jpeg" alt="drink3">
+            </div>
+            <div class="item">
+              4
+              <img src="images/drink4.jpeg" alt="drink4">
+            </div>
+            <div class="item">
+              5
+              <img src="images/drink5.jpeg" alt="drink5">
+            </div>
+            <div class="item">
+              6
+              <img src="images/drink6.jpeg" alt="drink6">
+            </div>
+            <div class="item">
+              7
+              <img src="images/drink7.jpeg" alt="drink7">
+            </div>
+            <div class="item">
+              8
+              <img src="images/drink8.jpeg" alt="drink8">
+            </div>
+            <div class="item">
+              9
+              <img src="images/drink9.jpeg" alt="drink9">
+            </div>
+            <div class="item">
+              10
+              <img src="images/drink10.jpeg" alt="drink10">
+            </div>
+            <div class="item">
+              11
+              <img src="images/drink11.jpeg" alt="drink11">
+            </div>
+              <div class="item">
+              12
+              <img src="images/drink12.jpeg" alt="drink12">
+            </div> 
+          </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Guji Corner Inn. All Rights Reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script>
+        window.addEventListener('scroll', () => {
+    const scrollPosition = window.scrollY;
+    const scaleValue = 1 + scrollPosition / 1000; 
+    document.querySelector('.hero-section').style.backgroundSize = `${100 * scaleValue}%`;
+});
+    </script>
+</body>
+</html>

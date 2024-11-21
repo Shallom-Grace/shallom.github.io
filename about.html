@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Guji Inn</title>
+        <link rel="stylesheet" href="about.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">Guji Corner Inn</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="accomodations.html">Accomodations</a></li>
+                    <li><a href="bar.html">Bar Selection</a></li>
+                </ul>
+            </nav>
+            <div class="head">
+            <button >Reserve now</button>
+            </div>
+        </header>
+        <section class="about-section">
+            <h2>About Guji Corner Inn</h2>
+            <p>Discover the heart of Kenyan hospitality at our cozy inn. Enjoy authentic dishes crafted with care; and unwind in our inviting atmosphere.</p>
+          </section>
+          <section class="featured">
+            <div class="featured-content">
+                <div class="featured-text">
+                    <h2>Our Commitment to Authenticity</h2>
+                    <p>At Guji Corner Inn, our mission is to provide an unforgettable dining experience that showcases the rich flavors and traditions of Kenyan cuisine. We strive to create a cozy atmosphere where every guest feels at home, enjoying meals crafted from traditional recipes.</p>
+                    <div class="stats">
+                        <div class="stat-row">
+                        <div class="stat">
+                            <h2><span class="number" data-target="100">0</span><span>%</span></h2>
+                            <p>We pride ourselves on using locally sourced ingredients and traditional recipes, ensuring that every dish reflects the true essence of Kenyan culture.</p>
+                        </div>
+                        <div class="stat">
+                            <h2><span class="number" data-target="100">0</span> <span>Dishes</span></h2>                            
+                            <p>Our values are rooted in community and hospitality. We believe in supporting our local community and fostering connections through food, making every dining experience special.</p>
+                        </div>
+                    </div>
+                    <div class="stat-row">
+                        <div class="stat">
+                            <h2><span class="number" data-target="50">0</span> <span>Team Members</span></h2>                            
+                            <p>Our dedicated team, including our Head Chef Jane Mwangi and Restaurant Manager David Otieno, work tirelessly to ensure that every guest has a memorable experience filled with warmth and exceptional service.</p>
+                        </div>
+                        <div class="stat">
+                            <h2><span class="number" data-target="34">0</span> <span>Years</span></h2>                          
+                            <p>Since our establishment in 2010, we have become a beloved spot for both locals and visitors, known for our warm hospitality and delicious meals.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+                <div class="featured-image">
+                    <img src="images/featured-image2.jpeg" alt="Guji Corner Inn Image">
+                </div>
+            
+        </section>
+        <footer>
+            <p>&copy; 2023 Guji Corner Inn. All Rights Reserved.</p>
+            <nav>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </nav>
+        </footer>
+        <script>
+            const numbers = document.querySelectorAll('.number');
+
+numbers.forEach(number => {
+    const target = number.getAttribute('data-target');
+
+    const interval = setInterval(() => {
+        const currentNumber = parseInt(number.textContent);
+        if (currentNumber < target) {
+            number.textContent = currentNumber + 1;
+        } else {
+            clearInterval(interval);
+        }
+    }, 10);
+});
+        </script>
+    </body>     
+</html>

@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif; 
+    font-size: 16px;
+    line-height: 1.5; 
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 40px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    color: orange;
+  }
+  
+  .head button {
+    background-color: orange;
+    color: #fff;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .head button:hover {
+    background-color: #ff8c00;
+  }
+  
+  .room-options {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .room-options h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .room-options p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .room-option {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .room-option h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .room-details {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .room-details h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-table, .features-table {
+    margin-bottom: 20px;
+  }
+  
+  .pricing-table table, .features-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .pricing-table th, .features-table th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .pricing-table td, .features-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .feature {
+    text-align: center;
+    flex: 1;
+    margin-bottom: 20px;
+  }
+  
+  .feature img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .feature h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    line-height: 1.5;
+  }
+
+
+
+
+
+  footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
